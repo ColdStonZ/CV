@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h3><em><strong>My Contact Details</strong></em></h3>
+    <ul>
+      <li><a href="https:/youtube.com">Website</a>&nbsp;- https:/youtube.com</li>
+      <li><a href="mailto:manjucs12345@gmail.com?Subject=Message%20from" target="_top">Email</a>&nbsp;- manjucs12345@gmail.com</li>
+      <li><a href="tel:+91-9482417207">Phone</a>&nbsp;- +91 - 9611126343</li>
+    </ul>  <br />
+    <a><hr size="1" Color="Black"> To Recieve future notifications, please enter your contact details below. </a>
+    <form action="mailto:manjucs12345@gmail.com?subject=New Member"  method="post" enctype="text/plain">
+      <table cellspacing="10">
+        <tbody>
+          <tr>
+            <td><label>Name:</label></td>
+            <td><input type="submitted-name" name="Name" autocomplete="name" required></td>
+          </tr>
+          <tr>
+            <td><label>Date of Birth:</label></td>
+            <td><input type="date" name="Date of Birth" autocomplete="bday" required></td>
+          </tr>
+          <tr>
+            <td><label>Enter your age:</label></td>
+            <td><input type="number" min="0" name="Age" required></td>
+          </tr>
+          <tr>
+            <td><label>Select your gender:</label></td>
+            <td> <a>Male &nbsp;</a><input type="radio" />
+              <a>&nbsp;&nbsp; Female &nbsp;</a><input type="radio" />
+              <a>&nbsp;&nbsp; Prefer not to say &nbsp;</a><input type="radio"/></td>
+          </tr>
+          <tr>
+            <td><label>Mobile Number:</label></td>
+            <td><a> + </a><input type="tel" size="1" maxlength="3" name="Country Code" autocomplete="tel-country-code"``><a> - </a><input type="tel"size="8" maxlength="10" name="Mobile Number" autocomplete="tel-local" required></td>
+          </tr>
+          <tr>
+            <td><label>Email:</label></td>
+            <td><input type="email" size="30" name="Email" autocomplete="email" required></td>
+          </tr>
+          <tr>
+            <td><label>Comments:</label></td>
+            <td><textarea name="Comments" rows="8" cols="80"></textarea>"</td>
+          </tr>
+        </tbody>
+      </table>
+      <input type="reset" />&nbsp;&nbsp;<input type="submit" value="Submit"/>
+    </form>
+
+  </body>
+</html>
